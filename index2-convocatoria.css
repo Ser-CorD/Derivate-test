@@ -800,3 +800,50 @@ button:hover{
 .contact-button:hover {
     background: #00175b;
 }
+footer {
+    background-color: var(--fondo);
+    padding: 40px 0;
+    height: auto;
+    min-height: 200px;
+}
+
+.footer-contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.marca-logo {
+    width: 200px;
+    margin: 0 auto 30px;
+}
+
+.marca-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.iconos a {
+    color: var(--color1);
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.iconos a:hover {
+    color: var(--color3);
+}
+
+.footer-contenedor p {
+    color: var(--color1);
+    font-size: 16px;
+    margin-top: 20px;
+}
